@@ -51,6 +51,6 @@ function App(){
 
 ![preview](imgs/preview.png)
 
-- [codesandbox](https://codesandbox.io/s/webnovel-icons-3kqbh)
+- [codesandbox](https://codesandbox.io/s/mqq-icons-odcm1)
 
-然后点击以上链接，并在 Dependencies 中升级 [webnovel-icons](https://www.npmjs.com/package/webnovel-icons) 到刚刚 Figma 中发布的版本，即可看到效果。
+然后点击以上链接，并在 Dependencies 中升级 [mqq-icons](https://www.npmjs.com/package/mqq-icons) 到刚刚 Figma 中发布的版本，即可看到效果。
