@@ -40,6 +40,6 @@ jobs:
           {
             "msgtype": "text",
             "text": {
-                "content": "图标裤更新了，更新信息：${{ github.event.head_commit.message }}"
+                "content": "企鹅🐧图标库更新了，更新信息：${{ github.event.head_commit.message }}"
             }
           }
