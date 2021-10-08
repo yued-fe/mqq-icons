@@ -30,3 +30,16 @@ jobs:
     - run: yarn publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+    - name: Qywx Bot Action
+      uses: zcong1993/actions-qywx-bot@v1.0.0
+      with:
+        # 企业微信 key
+        key: ${{secrets.WEBHOOK}}
+        # 消息体
+        body: |
+          {
+            "msgtype": "text",
+            "text": {
+                "content": "广州今日天气：29度，大部分多云，降雨概率：60%"
+            }
+          }
