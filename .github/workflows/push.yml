@@ -40,6 +40,6 @@ jobs:
           {
             "msgtype": "text",
             "text": {
-                "content": "广州今日天气：29度，大部分多云，降雨概率：60%"
+                "content": "图标裤更新了，更新信息：${{ github.event.head_commit.message }}"
             }
           }
