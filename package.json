@@ -1,6 +1,6 @@
 {
   "name": "mqq-icons",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "Icon automation workflow with Figma",
   "main": "dist/index.js",
   "module": "dist/index.js",
